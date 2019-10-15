@@ -27,7 +27,7 @@
       <div class="card mb-4">
         <div class="card-body">
           <h4 class="card-title">JavaScript</h4>
-          <a class="text-secondary"  href="file:///Users/ayanonakamura/Desktop/vue/index.html">Pizza Order Form</a>
+          <a class="text-secondary"  href="https://quirky-austin-3d5e4d.netlify.com/">Pizza Order Form</a>
         </div>
       </div>
     </div>
