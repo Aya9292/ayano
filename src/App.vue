@@ -1,10 +1,8 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+      <my-header></my-header>
     <router-view/>
+      <my-footer></my-footer>
   </div>
 </template>
 
@@ -29,3 +27,16 @@
   color: #42b983;
 }
 </style>
+
+<script>
+import myHeader from './components/myHeader.vue'
+import myFooter from './components/myFooter.vue'
+export default {
+  name: 'App', 
+  components:{
+    myHeader,
+    myFooter
+  }
+}
+
+</script>npm i --save @fortawesome/vue-fontawesome
